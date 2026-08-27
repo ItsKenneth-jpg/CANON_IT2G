@@ -33,10 +33,11 @@ public class Activity2 {
 
                 System.out.println("Peak Hour Fee: " + peak);
             }
-            else{
+            else {
                 peak = 0;
-                System.out.println("Peak Hour Fee: " +peak);
+                System.out.println("Peak Hour Fee: " + peak);
             }
+
             System.out.println("------------------------");
 
             Total = reg + peak;
@@ -54,13 +55,14 @@ public class Activity2 {
 
                 System.out.println("Peak Hour Fee: " + peak);
             }
-            else{
+            else {
                 peak = 0;
-                System.out.println("Peak Hour Fee: " +peak);
+                System.out.println("Peak Hour Fee: " + peak);
             }
+
             System.out.println("------------------------");
 
-            Total = reg + peak;
+            Total = treed + peak;
             System.out.println("Total Ticket Cost: " + Total);
             System.out.println("Status:  System Reserved");
         }
@@ -81,7 +83,7 @@ public class Activity2 {
             }
             System.out.println("------------------------");
 
-            Total = reg + peak;
+            Total = imax + peak;
             System.out.println("Total Ticket Cost: " + Total);
             System.out.println("Status:  System Reserved");
         }
